@@ -33,6 +33,12 @@ export const Route = createRootRoute({
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "AnonObmen24 — Анонимный криптообменник" },
       { name: "description", content: "Анонимный обмен криптовалюты для СНГ без KYC. Лучший курс." },
+      { property: "og:title", content: "AnonObmen24 — Анонимный криптообменник" },
+      { name: "twitter:title", content: "AnonObmen24 — Анонимный криптообменник" },
+      { property: "og:description", content: "Анонимный обмен криптовалюты для СНГ без KYC. Лучший курс." },
+      { name: "twitter:description", content: "Анонимный обмен криптовалюты для СНГ без KYC. Лучший курс." },
+      { name: "twitter:card", content: "summary" },
+      { property: "og:type", content: "website" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
